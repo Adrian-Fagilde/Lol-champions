@@ -1,6 +1,8 @@
 body {
-	background-size: 20% 20%;
+	background-size: 20% 90%;
 	background-image: url('img/fondo2.jpg');
+	background-repeat:repeat-x;
+	background-position: center;
 }
 
 header {
@@ -14,7 +16,6 @@ header h1 {
 }
 .main div {
 	background-color: #2f3c2a;
-
 	height: auto;
 	margin-top: 4%;
 }
@@ -29,6 +30,7 @@ header h1 {
 	height: 80%;
 	margin: 10% 10%;
 	display: block;
+	border-radius: 50%;
 	box-shadow: 10px 10px 0px 0px #1d64a6;
 }
 
